@@ -497,8 +497,11 @@
   "httpProxy": {
     "useProxy": true,
     "alwaysUseProxy": false,
-    "url": "",
-    "rules": []
+    "url": "http://gallery.chn.esri.com/arcgis/sharing/proxy",
+    "rules": [{
+			"urlPrefix": "http://route.arcgis.com/",
+			"proxyUrl": "resource-proxy-1.0/DotNet/proxy.ashx"
+		}]
   },
   "dataSource": {
     "dataSources": {},
