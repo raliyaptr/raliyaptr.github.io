@@ -497,10 +497,10 @@
   "httpProxy": {
     "useProxy": true,
     "alwaysUseProxy": false,
-    "url": "http://laptop-dsprf14k:3344/webappbuilder",
+    "url": "http://laptop-dsprf14k:3344/webappbuilder.ashx",
     "rules": [{
 			"urlPrefix": "http://route.arcgis.com/",
-			"proxyUrl": "resource-proxy-1.0/DotNet/proxy.ashx"
+			"proxyUrl": "http://laptop-dsprf14k:3344/webappbuilder.ashx"
 		}]
   },
   "dataSource": {
