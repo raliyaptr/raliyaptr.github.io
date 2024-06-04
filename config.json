@@ -497,7 +497,7 @@
   "httpProxy": {
     "useProxy": true,
     "alwaysUseProxy": false,
-    "url": "http://gallery.chn.esri.com/arcgis/sharing/proxy",
+    "url": "http://laptop-dsprf14k:3344/webappbuilder",
     "rules": [{
 			"urlPrefix": "http://route.arcgis.com/",
 			"proxyUrl": "resource-proxy-1.0/DotNet/proxy.ashx"
