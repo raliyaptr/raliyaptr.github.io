@@ -1,0 +1,223 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 22.02797202797203,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "8755615553890757-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "8755615553890757-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 24.578620260650577,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "8755615553890757-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "8755615553890757-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 26.345431436534902,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "8755615553890757-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "8755615553890757-3"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 27.0479762748425,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "8755615553890757-4"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "8755615553890757-4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "8755615553890757-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#ffa500",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Jumlah Makam"
+      }
+    },
+    {
+      "id": "8755615553890757-2",
+      "type": "image",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#fffacd",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": "",
+          "alt": "png-transparent-cemetery-headstone-grave-silhouette-cemetery-miscellaneous-rectangle-logo.png"
+        },
+        "image": "${appPath}/configs/Infographic/base64Img_widgets_Infographic_Widget_21_1717412877385.png",
+        "alt": "png-transparent-cemetery-headstone-grave-silhouette-cemetery-miscellaneous-rectangle-logo.png"
+      }
+    },
+    {
+      "id": "8755615553890757-3",
+      "type": "number",
+      "visible": true,
+      "config": {
+        "indicators": [],
+        "background": {
+          "backgroundColor": "#fffacd",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 40,
+          "textColor": "#000001"
+        },
+        "dataFormat": {
+          "unit": "none",
+          "decimalPlaces": "0",
+          "digitSeparator": true,
+          "prefix": "",
+          "suffix": ""
+        },
+        "statistics": [
+          {
+            "type": "value",
+            "config": {
+              "type": "stat",
+              "value": {
+                "type": "count"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "8755615553890757-4",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#fffacd",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": false,
+            "italic": true,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Jumlah Pemakaman di Kota Yogyakarta"
+      }
+    }
+  ],
+  "name": "number",
+  "wid": "8755615553890757",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Makam",
+    "layerId": "aec82621f7934a2d858f8e0f6fab0a0a",
+    "useSelection": true,
+    "filterByExtent": false
+  }
+}
