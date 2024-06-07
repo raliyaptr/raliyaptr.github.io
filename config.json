@@ -497,10 +497,10 @@
   "httpProxy": {
     "useProxy": true,
     "alwaysUseProxy": false,
-    "url": "http://laptop-dsprf14k:3344/webappbuilder.ashx",
+    "url": "http://gallery.chn.esri.com/arcgis/sharing/proxy",
     "rules": [{
 			"urlPrefix": "http://route.arcgis.com/",
-			"proxyUrl": "http://laptop-dsprf14k:3344/webappbuilder.ashx"
+			"proxyUrl": "resource-proxy-1.0/DotNet/proxy.ashx"
 		}]
   },
   "dataSource": {
